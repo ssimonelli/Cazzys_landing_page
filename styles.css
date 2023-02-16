@@ -1,3 +1,7 @@
+*{
+    background-color:rgb(56, 130, 130);
+}
+
 div {
     color:#350463;
 }
@@ -6,4 +10,6 @@ h1 {
     color:aqua;
     background-color: black;
 }
+
+
 
