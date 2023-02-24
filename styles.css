@@ -1,14 +1,23 @@
 *{
     background-color:rgb(56, 130, 130);
-}
-
-div {
     color:#350463;
+    text-align:left;
 }
 
 h1 {
     color:aqua;
     background-color: black;
+    text-align: left;
+}
+
+#title{
+    text-align: left;
+}
+
+.list {
+    display:table;
+    text-align:left;
+    margin: 0 auto;
 }
 
 
