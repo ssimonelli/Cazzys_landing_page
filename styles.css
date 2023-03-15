@@ -1,14 +1,58 @@
 *{
-    background-color:rgb(56, 130, 130);
     color:#350463;
-    text-align:left;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color:aqua;
-    background-color: black;
+body{
+    background-color:rgb(56, 130, 130);
+}
+
+.topofpage{
+    overflow:hidden;
+    background-color:black;
+    padding:20px 10px;
+    
+}
+
+.topofpage-right{
+    float:right;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    padding:20px 10px;
+}
+
+.topofpage-right a{
+    padding:20px 10px;
+    color:white;
+    text-decoration: none;
+}
+
+.topofpage-right a:hover{
+    background-color:rgb(204, 204, 204)
+}
+
+#logo{
+    float:left;
+    color:red;
+    font-size:40px;
+    /* background-color: pink; */
     text-align: left;
+}
+
+h1 {
+    width: fit-content;
+    color:aqua;
+    margin:auto
+}
+
+.inline_list{
+    display: flex;
+    margin: 2em;
+}
+
+li {
+    margin: 2em;
 }
 
 #title{
