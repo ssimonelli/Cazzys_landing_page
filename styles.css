@@ -48,6 +48,7 @@ body{
     text-decoration:none;
     opacity:1;
     font-style:normal;
+    border-radius:5px;
 }
 
 .navbar-right {
@@ -78,7 +79,6 @@ body{
 .textbox{
     max-width:750px;
     background-color:rgba(255, 255, 255, 0.745);
-    /* opacity:.7; */
     border-radius:25px;
     padding:1em;
 }
@@ -128,5 +128,38 @@ li {
     margin: 0 auto;
 } */
 
+
+
+/* STYLING FOR TEST PAGE */
+
+.inlineblocktest{
+    background-color: bisque;
+    display:inline-block;
+    max-width: 40em;
+}
+
+
+.container { 
+    border: 1px black solid;
+    width:95%
+    height: 120px;    
+}
+
+.small {
+    vertical-align:top;
+    display: inline-block;
+    width: 40%;
+    height: 30%;
+    border: 1px black solid;
+    background: aliceblue;    
+}
+
+.big {
+    display: inline-block;
+    border: 1px black solid;
+    width: 40%;
+    height: 50%;
+    background: beige;    
+}
 
 
