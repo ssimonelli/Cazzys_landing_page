@@ -1,4 +1,9 @@
-# odin-recipes
+# Cazzys_corner
+Updated 4/5/2023:
+This project has been turned into a home page and will be expanded with new features and pages to showcase new skills as they are learned.
+
+
+--------
 Recipes class from odin project
 
 
