@@ -88,6 +88,7 @@ body{
     font-size:40px;
     color:rgb(217, 98, 117);
     margin:0;
+    text-align:center;
 }
 
 
@@ -141,7 +142,7 @@ li {
 
 .container { 
     border: 1px black solid;
-    width:95%
+    width:95%;
     height: 120px;    
 }
 
@@ -162,4 +163,8 @@ li {
     background: beige;    
 }
 
+#articletitle {
+padding:1em;
+font-size:60px;
 
+}
