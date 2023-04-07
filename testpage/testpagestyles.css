@@ -48,18 +48,22 @@ margin:10px;
     border:solid 2px blue;
     flex:1;
     margin:50px;
+
 }
 
-.threeitemcontainer > div > div {
+.rightboxcontainer {
     border:solid 3px green;
 }
 
-.threeitemcontainer > div >div >div {
+.rightboxcontainer > div {
     border:solid 3px red;
+}
+
+.rightsmallcontainer {
     display:flex;
 }
 
-.threeitemcontainer > div >div >div >div {
+.rightsmallcontainer > div {
     border:solid 3px yellow;
     flex:1;
 }
