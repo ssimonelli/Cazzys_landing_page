@@ -1,0 +1,65 @@
+
+.container {
+border: 4px solid;
+border-color:blue;
+display:flex;
+background-color: tan;
+}
+
+.container > div {
+flex:1;
+border: 2px solid coral;
+padding: 20px;
+background-color:peachpuff;
+display:flex;
+margin:10px;
+}
+
+.container > div > button {
+    flex:1;
+    background-color:rgb(192, 116, 105);
+    border: solid pink;
+}
+
+.container2 {
+    background-color:blueviolet;
+    border:4px solid rgb(255, 0, 0);
+}
+
+.container2 > div {
+    border:2px solid green;
+}
+
+.container, .container2{
+    margin:10px;
+
+}
+
+
+/* testing more complex flexbox styling */
+
+.threeitemcontainer{
+    border:solid 5px;
+    display:flex;
+}
+
+
+.threeitemcontainer > div {
+    border:solid 2px blue;
+    flex:1;
+    margin:50px;
+}
+
+.threeitemcontainer > div > div {
+    border:solid 3px green;
+}
+
+.threeitemcontainer > div >div >div {
+    border:solid 3px red;
+    display:flex;
+}
+
+.threeitemcontainer > div >div >div >div {
+    border:solid 3px yellow;
+    flex:1;
+}
